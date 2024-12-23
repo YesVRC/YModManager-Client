@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --color-maindark-50: oklch(95.69% 0.009 314.78);
+    --color-maindark-100: oklch(91.37% 0.019 312.79);
+    --color-maindark-200: oklch(81.77% 0.042 313.15);
+    --color-maindark-300: oklch(72.97% 0.06 313.03);
+    --color-maindark-400: oklch(62.99% 0.085 312.82);
+    --color-maindark-500: oklch(53.83% 0.1 312.4);
+    --color-maindark-600: oklch(45.76% 0.084 312.06);
+    --color-maindark-700: oklch(38.19% 0.066 312.74);
+    --color-maindark-800: oklch(29.25% 0.045 313.43);
+    --color-maindark-900: oklch(20.32% 0.028 311.98);
+    --color-maindark-950: oklch(15.3% 0.014 314.37);
+}
+
+.card {
+    @apply shadow-lg rounded-lg bg-gray-500/50
+    bg-clip-padding
+    backdrop-filter
+    backdrop-blur
+    backdrop-saturate-100
+    backdrop-contrast-100;
+}
